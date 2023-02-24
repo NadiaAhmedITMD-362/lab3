@@ -5,14 +5,13 @@
 body {
   padding: 5%;
   font-size: 3vh;
-  font-family: "Ubuntu","Roboto", "Montserrat", serif;
-
+  font-family: "Ubuntu", "Roboto", "Montserrat", serif;
 }
 
 h1 {
   padding: 3%;
   font-size: 6vh;
-  text-align: center ;
+  text-align: center;
 }
 
 p {
@@ -25,19 +24,16 @@ main {
   padding: 5%;
 }
 
-
 main {
   padding: 10%;
   margin: 1%;
 }
 
-main ol li{
-
+main ol li {
   margin: 3vh 0;
-
 }
 
-main input{
+main input {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
@@ -45,11 +41,12 @@ main input{
   background-color: #eee;
   outline: none;
 }
+
 main input:focus {
   outline: none;
 }
 
-main input[type="email"]{
+main input[type="email"] {
   font-family: "Ubuntu", serif;
   padding: 2%;
   margin: auto;
@@ -58,7 +55,7 @@ main input[type="email"]{
   text-align: center;
 }
 
-main input[type="checkbox"]{
+main input[type="checkbox"] {
   width: 2vh;
   height: 2vh;
   background: #eee;
@@ -67,10 +64,8 @@ main input[type="checkbox"]{
   margin: auto;
   text-align: center;
 }
-  
-}
 
-main input[type="checkbox"]:checked{
+main input[type="checkbox"]:checked {
   width: 2vh;
   height: 2vh;
   background: black;
@@ -80,7 +75,7 @@ main input[type="checkbox"]:checked{
   text-align: center;
 }
 
-main input[type="submit"]{
+main input[type="submit"] {
   font-family: "Ubuntu", serif;
   padding: 2%;
   margin: auto;
@@ -88,14 +83,12 @@ main input[type="submit"]{
   padding: 10px;
   text-align: center;
 }
-}
 
-main input[type="submit"]:focus{
-  font-family: "Ubuntu","Roboto", "Montserrat", serif;
+main input[type="submit"]:focus {
+  font-family: "Ubuntu", "Roboto", "Montserrat", serif;
   padding: 2%;
   color: silver;
   margin: auto;
   width: 50%;
   padding: 10px;
-}
 }
